@@ -16,6 +16,8 @@ a{
     font-size: 0.8em;
 }
 
+/*HEADER*/
+
 header{
     top: 0;
     left: 0;
@@ -84,6 +86,8 @@ ul li img{
     padding: 0.5em 0.6em;
 }
 
+/*JUMBOTRON*/
+
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -95,11 +99,20 @@ ul li img{
 
 }
 
-
 .jumbo-text{
     margin-top: 400px;
 }
 
 .jumbo-text button{
     background-color: orangered;
+}
+
+.jumbo-text img{
+    width: 60%;
+}
+
+/*CARDS*/
+
+.cards img{
+    border-radius: 10%;
 }
