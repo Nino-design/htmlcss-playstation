@@ -1,5 +1,9 @@
 /*COMMON*/
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 img{
     width: 100%;
 }
@@ -8,23 +12,46 @@ a{
     text-decoration: none;
 }
 
+.font-small{
+    font-size: 0.8em;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    height: 80px;
+    background-color: white;
+    
+}
 
 .image-container{
     background-color: black;
-    text-align: right;
+    padding: 3px 0;
 }
 
 .image-container img{
     width: 70px;
+    
 }
 
 ul{
     padding-left: 0;
+    color: black;
+}
+
+ul li a{
+    color: black;
 }
 
 ul li{
     list-style-type: none;
     display: inline-block;
+    padding: 0 5px;
+    line-height: 50px;
+    
 }
 
 ul li img{
@@ -32,8 +59,47 @@ ul li img{
 
 }
 
+.logo{
+    line-height: 50px;
+
+}
 
 .logo img{
-    width: 30px;
+    width: 50px;
     padding-right: 0;
+    
+}
+
+.burger{
+    width: 50px;
+    text-align: end;
+    line-height: 50px;
+}
+
+.header-button{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    padding: 0.5em 0.6em;
+}
+
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    z-index: 2;
+    height: 700px;
+    margin-top: 80px;
+
+}
+
+
+.jumbo-text{
+    margin-top: 400px;
+}
+
+.jumbo-text button{
+    background-color: orangered;
 }
