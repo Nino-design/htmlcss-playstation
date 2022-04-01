@@ -122,3 +122,15 @@ ul li img{
 .ecco-playstation p{
     color: lightslategray;
 }
+
+.console-text{
+    padding-top: 8em;
+}
+
+.console-text p{
+    color: lightslategray;
+}
+
+.console-1 button{
+    background-color: #2d64e6;
+}
