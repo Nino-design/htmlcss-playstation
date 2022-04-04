@@ -113,7 +113,7 @@ ul li img{
 
 /*CARDS*/
 
-.cards img{
+.cards, .giochi img{
     border-radius: 10%;
 }
 
@@ -162,4 +162,11 @@ ul li img{
 
 .takes-text img{
     width: 70%;
+}
+
+/*GIOCHI*/
+
+.giochi{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
 }
