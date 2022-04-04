@@ -191,5 +191,26 @@ ul li img{
     background-color: #d9dadc;
 }
 
-/*PS-STORE*/
+/*PS-Now*/
+
+
+.ps-now{
+    background-color: #161c3b;
+    color: white;
+}
+
+.ps-now-logo{
+    width: 45%;
+}
+
+.ps-now-offer{
+    width: 70%;
+}
+
+.ps-now button{
+    border: transparent;
+    color: black;
+    background-color: white;
+}
+
 
