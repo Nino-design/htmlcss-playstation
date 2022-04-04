@@ -13,7 +13,7 @@ a{
 }
 
 .font-small{
-    font-size: 0.8em;
+    font-size: 14px;
 }
 
 
@@ -120,7 +120,7 @@ ul li img{
 
 /*ECCO PLAYSTATION*/
 
-.ecco-playstation, .esplora-ps4 p{
+.ecco-playstation p, .esplora-ps4 p, .ps-store p{
     color: lightslategray;
 }
 
@@ -190,3 +190,6 @@ ul li img{
     border: transparent;
     background-color: #d9dadc;
 }
+
+/*PS-STORE*/
+
