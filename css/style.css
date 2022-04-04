@@ -16,6 +16,7 @@ a{
     font-size: 0.8em;
 }
 
+
 /*HEADER*/
 
 header{
@@ -169,4 +170,23 @@ ul li img{
 .giochi{
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
+}
+
+/*PS PLUS*/
+
+.ps-plus{
+    background-color: #bebcbb;
+}
+
+.ps-plus-logo{
+    width: 45%;
+}
+
+.ps-plus-offer{
+    width: 70%;
+}
+
+.ps-plus button{
+    border: transparent;
+    background-color: #d9dadc;
 }
