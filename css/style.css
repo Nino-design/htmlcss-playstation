@@ -213,12 +213,29 @@ ul li img{
     background-color: white;
 }
 
-
-/*SOCIAL*/
-
-
+/*FOOTER*/
 
 footer{
-    height: 400px;
-    background-color: blue;
+    background-color: #00439c;
+    padding-top: 5em;
+    color: white;
+}
+
+footer ul{
+    padding: 0 -8em;
+}
+
+footer ul li{
+    color: white;
+    display: block;
+    margin-top: -25px;
+    margin-left: 1em;
+}
+
+.footer-top img{
+    width: 15%;
+}
+
+.footer-bottom img{
+    width: 100px;
 }
