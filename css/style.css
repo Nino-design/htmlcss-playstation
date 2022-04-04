@@ -31,11 +31,11 @@ header{
 
 .image-container{
     background-color: black;
-    padding: 3px 0;
+    padding: 3px;
 }
 
 .image-container img{
-    width: 70px;
+    width: 60px;
     
 }
 
@@ -103,7 +103,7 @@ ul li img{
     margin-top: 400px;
 }
 
-.jumbo-text button{
+.orange-but{
     background-color: orangered;
 }
 
@@ -123,6 +123,8 @@ ul li img{
     color: lightslategray;
 }
 
+/*CONSOLE-1*/
+
 .console-text{
     padding-top: 8em;
 }
@@ -133,4 +135,31 @@ ul li img{
 
 .console-1 button{
     background-color: #2d64e6;
+}
+
+/*CONSOLE-2*/
+
+.console-2 img{
+    width: 50%;
+}
+
+/*IT TAKES TWO*/
+
+.takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    z-index: 2;
+    height: 700px;
+    margin-top: 30px;
+
+}
+
+.takes-text{
+    margin-top: 80px;
+}
+
+.takes-text img{
+    width: 70%;
 }
